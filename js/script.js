@@ -22,6 +22,10 @@ function changeTab(evt, newTab) {
         document.getElementsByClassName("v10_119")[0].style.color = "rgba(0,0,0,1)";
         document.getElementsByClassName("v10_119")[0].style["border-bottom"] = "5px solid rgba(0,0,0,1)";
     }
+    else if(newTab==='charities_tab'){
+        document.getElementsByClassName("v10_119_")[0].style.color = "rgba(0,0,0,1)";
+        document.getElementsByClassName("v10_119_")[0].style["border-bottom"] = "5px solid rgba(0,0,0,1)";
+    }
   
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(newTab).style.display = "block";
@@ -32,10 +36,12 @@ function changeTab(evt, newTab) {
     document.getElementsByClassName("v10_66")[0].style.color = "rgba(155,155,155,1)";
     document.getElementsByClassName("v10_68")[0].style.color = "rgba(155,155,155,1)";
     document.getElementsByClassName("v10_119")[0].style.color = "rgba(155,155,155,1)";
+    document.getElementsByClassName("v10_119_")[0].style.color = "rgba(155,155,155,1)";
     
     document.getElementsByClassName("v10_66")[0].style["border-bottom"] = "none";
     document.getElementsByClassName("v10_68")[0].style["border-bottom"] = "none";
     document.getElementsByClassName("v10_119")[0].style["border-bottom"] = "none";
+    document.getElementsByClassName("v10_119_")[0].style["border-bottom"] = "none";
   }
 
   function changeMentor(evt, direction) {
