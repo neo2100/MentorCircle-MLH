@@ -37,3 +37,14 @@ function changeTab(evt, newTab) {
     document.getElementsByClassName("v10_68")[0].style["border-bottom"] = "none";
     document.getElementsByClassName("v10_119")[0].style["border-bottom"] = "none";
   }
+
+  function changeMentor(evt, direction) {
+    if(direction==='right'){
+        document.getElementById("mentor_1").style.display = "none";
+        document.getElementById("mentor_2").style.display = "block";
+    }
+    else if(direction==='left'){
+        document.getElementById("mentor_1").style.display = "block";
+        document.getElementById("mentor_2").style.display = "none";
+    }
+  }

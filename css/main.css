@@ -663,6 +663,23 @@ body {
   border-bottom-right-radius: 11px;
   overflow: hidden;
 }
+.v8_3_2 {
+  width: 876px;
+  height: 464px;
+  background: url("../images/v8_3_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 282px;
+  left: 48px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  overflow: hidden;
+}
 .v10_461 {
   width: 47px;
   height: 52px;
@@ -1667,4 +1684,17 @@ body {
   font-size: 18px;
   opacity: 1;
   text-align: left;
+}
+
+
+
+
+
+
+
+
+.arrow_button{
+  padding: 0;
+  border: none;
+  background: url("../images/right arrow.svg")
 }
