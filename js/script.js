@@ -48,3 +48,21 @@ function changeTab(evt, newTab) {
         document.getElementById("mentor_2").style.display = "none";
     }
   }
+
+// When the user clicks on the button, open the modal
+function openMessage() {
+    document.getElementById("message_modal").style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function closeModal() {
+    document.getElementById("message_modal").style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    var modal = document.getElementById("message_modal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}

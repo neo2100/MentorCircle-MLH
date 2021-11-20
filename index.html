@@ -48,8 +48,8 @@
                 <div class="v9_33"><img src="./images/search icon.svg" /></div>
             </div>
             <div class=e10_464>
-                <div class="e9_20"></div>
-                <div class="e10_65"><img src="./images/choose.png" /></div>
+                <div class="e9_20" onclick="openMessage(event)"></div>
+                <div class="e10_65" onclick="openMessage(event)"><img src="./images/choose.png" /></div>
                 <div class="e9_22"></div>
                 <div class="e9_28"></div>
                 <div class="e10_63"><img src="./images/dislike.png" /></div>
@@ -95,15 +95,17 @@
                         </div>
                     </div>
                 </div>
-                <div id="mentor_2"  style="display: none;">
+                <div id="mentor_2" style="display: none;">
                     <div class="v8_3_2"></div>
                     <span class="v56_3">15 per hour</span>
                     <div class="v56_4"><img src="./images/required points.svg" /></div>
                     <div id="mentor_intro">
                         <div class="v10_465">
                             <div class="v8_6"></div><span class="v9_30">I am looking for a hackathon lover mentee.
-                                He/she does not need to be talented but need to have passion towards trying new development tools. I am
-                                willing to help during hackathon weekend hosted by MLH.</span><span class="v9_9">I AM LOOKING FOR</span>
+                                He/she does not need to be talented but need to have passion towards trying new
+                                development tools. I am
+                                willing to help during hackathon weekend hosted by MLH.</span><span class="v9_9">I AM
+                                LOOKING FOR</span>
                         </div>
                         <div class="v10_467">
                             <div class="v8_4"></div><span class="v9_7">ABOUT ME</span><span class="v9_8">I started in
@@ -133,10 +135,10 @@
                 </div>
             </div>
             <div class="v10_461">
-                <div><img onclick ="changeMentor(event, 'right')" src="./images/right arrow.svg" /></div>
+                <div><img onclick="changeMentor(event, 'right')" src="./images/right arrow.svg" /></div>
             </div>
             <div class="v10_462">
-                <div><img onclick ="changeMentor(event, 'left')" src="./images/left arrow.svg" /></div>
+                <div><img onclick="changeMentor(event, 'left')" src="./images/left arrow.svg" /></div>
             </div>
         </div>
 
@@ -238,6 +240,31 @@
                     <div class="v10_425"></div><span class="v10_426">Reply</span>
                 </div>
             </div>
+        </div>
+
+        <!-- The Message Modal -->
+        <div id="message_modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close" onclick="closeModal(event)">&times;</span>
+                <div class="v10_312"></div>
+                <div class="v10_332">
+                    <div class="v10_313"></div>
+                    <div class="v10_317">
+                        <div class="v10_318"></div><span class="v10_319">SHARE MY PROFILE</span>
+                    </div>
+                    <div class="v10_470">
+                        <div class="name"></div><span class="v10_328">SEND A REQUEST</span>
+                    </div>
+                    <div class="v10_331">
+                        <textarea class="v10_315" placeholder="Write something to the mentor you choose..."></textarea>
+                    </div>
+                    <div class="v10_327"></div>
+                </div>
+                <div class="v10_325"></div>
+            </div>
+
         </div>
     </div>
     <div style="text-align: center;">
