@@ -4,78 +4,274 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="https://storage.googleapis.com/mentorcircle.study/images/favicon.png">
     <title>MentorCircle</title>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 </head>
 
-<body style=" 
-margin: 0 auto;
-background-attachment: fixed; background-position: center center;  background-size: cover; background-color: rgba(253,253,253,1);">
+<body
+    style=" margin: 0 auto; background-attachment: fixed; background-position: center center;  background-size: cover; background-color: rgba(253,253,253,1);">
     <div class="v5_31">
-        <div class="v10_468">
-            <div class="v9_31"></div>
-            <div class="v9_36"></div>
-            <div class="v10_45">
-                <div class="v10_44"><img src="./images/Vector.svg"/></div><span class="v9_39">Expertise</span>
-            </div>
-            <div class="v9_37"></div>
-            <div class="v9_38"></div>
-            <div class="v10_50">
-                <div class="v10_52"><img src="./images/Vector.svg"/></div><span class="v10_53">Level</span>
-            </div>
-            <div class="v10_54">
-                <div class="v10_56"><img src="./images/Vector.svg"/></div><span class="v10_57">Country</span>
-            </div><span class="v9_34">Search for mentor</span>
-            <div class="v9_33"><img src="./images/search icon.svg"/></div>
-        </div>
-        <div class="v10_465">
-            <div class="v8_6"></div><span class="v9_30">I am looking for an aspirant and hard-working mentee. He/she
-                doesn’t need to be talented but need to have passion towards his/her job. I am willing to help more
-                designers and give advice.</span><span class="v9_9">I AM LOOKING FOR</span>
-        </div>
-        <div class="v10_467">
-            <div class="v8_4"></div><span class="v9_7">ABOUT ME</span><span class="v9_8">I started in Graphic Design and
-                became specialist in Technological Aesthetics and Strategic Design and Innovation. Seeking the
-                continuous development of a hybrid professional capacity, transforming the union between creativity and
-                business language into strategies of innovation, product, service and communication.</span>
-        </div>
-        <div class="v10_469">
-            <div class="v9_13">
-                <div class="v9_11"></div><span class="v9_12">Product Design</span>
-            </div>
-            <div class="v10_121">
-                <div class="v10_122"></div><span class="v10_123">Photography</span>
-            </div>
-            <div class="v10_124">
-                <div class="v10_125"></div><span class="v10_126">UX Design</span>
-            </div>
-            <div class="v10_127">
-                <div class="v10_128"></div><span class="v10_129">Illustration</span>
-            </div>
-        </div>
         <div class="v10_454">
-            <div class="name"></div><span class="v9_29">LOGO</span>
+            <div class="name"></div><span class="v9_29"><img src="./images/mentorcircle logo n-04 1.png" /></span>
         </div>
-        <div class=e10_464>
-            <div class="e9_20"></div>
-            <div class="e10_65"><img src="./images/choose.png"/></div>
-            <div class="e9_22"></div>
-            <div class="e9_28"></div>
-            <div class="e10_63"><img src="./images/dislike.png"/></div>
-            <div class="e10_61"><img src="./images/collect.svg"/></div>
+        <div class="v57_5">
+            <div class="v57_6"></div>
+            <span class="v57_7">Donation</span>
+            <div class="v57_8"><img src="./images/donation.svg" /></div>
         </div>
-        <div class="v10_463"><span class="v10_66">MENTORS</span><span class="v10_68">MY PROFILE</span><span
-                class="v10_119">NOTIFICATIONS</span>
-            <div class="name"></div>
+
+
+        <div id="select_tab">
+            <div class="v10_463">
+                <button class="v10_66" onclick="changeTab(event, 'mentors_tab')">MENTORS</button>
+                <button class="v10_68" onclick="changeTab(event, 'my_profile_tab')">MY PROFILE</button>
+                <button class="v10_119" onclick="changeTab(event, 'notifications_tab')">NOTIFICATIONS</button>
+                <div class="name"></div>
+            </div>
         </div>
-        <div class="v8_3"></div>
-        <div class="v10_461">
-            <div ><img src="./images/right arrow.svg"/></div>
+        <div id="mentors_tab" class="tabcontent">
+            <div class="v10_468">
+                <div class="v9_31"></div>
+                <div class="v9_36"></div>
+                <div class="v10_45">
+                    <div class="v10_44"><img src="./images/Vector.svg" /></div><span class="v9_39">Expertise</span>
+                </div>
+                <div class="v9_37"></div>
+                <div class="v9_38"></div>
+                <div class="v10_50">
+                    <div class="v10_52"><img src="./images/Vector.svg" /></div><span class="v10_53">Level</span>
+                </div>
+                <div class="v10_54">
+                    <div class="v10_56"><img src="./images/Vector.svg" /></div><span class="v10_57">Country</span>
+                </div><span class="v9_34">Search for mentor</span>
+                <div class="v9_33"><img src="./images/search icon.svg" /></div>
+            </div>
+            <div class=e10_464>
+                <div class="e9_20" onclick="openMessage(event)"></div>
+                <div class="e10_65" onclick="openMessage(event)"><img src="./images/choose.png" /></div>
+                <div class="e9_22"></div>
+                <div class="e9_28"></div>
+                <div class="e10_63"><img src="./images/dislike.png" /></div>
+                <div class="e10_61"><img src="./images/collect.svg" /></div>
+            </div>
+            <div id="mentor_info">
+                <div id="mentor_1">
+                    <div class="v8_3"></div>
+                    <span class="v56_3">20 per hour</span>
+                    <div class="v56_4"><img src="./images/required points.svg" /></div>
+                    <div id="mentor_intro">
+                        <div class="v10_465">
+                            <div class="v8_6"></div><span class="v9_30">I am looking for an aspirant and hard-working
+                                mentee.
+                                He/she does not need to be talented but need to have passion towards his/her job. I am
+                                willing to help
+                                more
+                                designers and give advice.</span><span class="v9_9">I AM LOOKING FOR</span>
+                        </div>
+                        <div class="v10_467">
+                            <div class="v8_4"></div><span class="v9_7">ABOUT ME</span><span class="v9_8">I started in
+                                Graphic Design and
+                                became specialist in Technological Aesthetics and Strategic Design and Innovation.
+                                Seeking the
+                                continuous development of a hybrid professional capacity, transforming the union between
+                                creativity and
+                                business language into strategies of innovation, product, service and
+                                communication.</span>
+                        </div>
+                    </div>
+                    <div class="v10_469">
+                        <div class="v9_13">
+                            <div class="v9_11"></div><span class="v9_12">Product Design</span>
+                        </div>
+                        <div class="v10_121">
+                            <div class="v10_122"></div><span class="v10_123">Photography</span>
+                        </div>
+                        <div class="v10_124">
+                            <div class="v10_125"></div><span class="v10_126">UX Design</span>
+                        </div>
+                        <div class="v10_127">
+                            <div class="v10_128"></div><span class="v10_129">Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="mentor_2" style="display: none;">
+                    <div class="v8_3_2"></div>
+                    <span class="v56_3">15 per hour</span>
+                    <div class="v56_4"><img src="./images/required points.svg" /></div>
+                    <div id="mentor_intro">
+                        <div class="v10_465">
+                            <div class="v8_6"></div><span class="v9_30">I am looking for a hackathon lover mentee.
+                                He/she does not need to be talented but need to have passion towards trying new
+                                development tools. I am
+                                willing to help during hackathon weekend hosted by MLH.</span><span class="v9_9">I AM
+                                LOOKING FOR</span>
+                        </div>
+                        <div class="v10_467">
+                            <div class="v8_4"></div><span class="v9_7">ABOUT ME</span><span class="v9_8">I started in
+                                Backend development and
+                                became specialist in Technological Aesthetics and Strategic Design.
+                                Seeking the
+                                continuous development of a hybrid professional capacity, transforming the union between
+                                creativity and
+                                business language into strategies of innovation, product, service and
+                                communication. Love to help people learn new things.</span>
+                        </div>
+                    </div>
+                    <div class="v10_469">
+                        <div class="v9_13">
+                            <div class="v9_11"></div><span class="v9_12">Product Design</span>
+                        </div>
+                        <div class="v10_121">
+                            <div class="v10_122"></div><span class="v10_123">javaScript</span>
+                        </div>
+                        <div class="v10_124">
+                            <div class="v10_125"></div><span class="v10_126">_ MLH _</span>
+                        </div>
+                        <div class="v10_127">
+                            <div class="v10_128"></div><span class="v10_129">Backend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="v10_461">
+                <div><img onclick="changeMentor(event, 'right')" src="./images/right arrow.svg" /></div>
+            </div>
+            <div class="v10_462">
+                <div><img onclick="changeMentor(event, 'left')" src="./images/left arrow.svg" /></div>
+            </div>
         </div>
-        <div class="v10_462">
-            <div ><img src="./images/left arrow.svg"/></div>
+
+        <div id="my_profile_tab" class="tabcontent" style="display: none;">
+            <div class="v10_114"></div>
+            <span class="v10_160">Expertise</span>
+            <div class="v10_144">
+                <div class="v10_136">
+                    <div class="v10_137"></div><span class="v10_138">Product Design</span>
+                </div>
+                <div class="v10_141">
+                    <img src="./images/remove skill.svg" />
+                </div>
+            </div>
+            <div class="v10_145">
+                <div class="v10_146">
+                    <div class="v10_147"></div><span class="v10_148">Visual Design</span>
+                </div>
+                <div class="v10_149">
+                    <img src="./images/remove skill.svg" />
+                </div>
+            </div>
+            <div class="v10_152">
+                <div class="v10_153">
+                    <div class="v10_154"></div><span class="v10_155">User Research</span>
+                </div>
+                <div class="v10_156">
+                    <img src="./images/remove skill.svg" />
+                </div>
+            </div>
+            <div class="v10_162">
+                <div class="v10_163">
+                    <div class="v10_164"></div><span class="v10_165">Add More</span>
+                </div>
+                <div class="v10_166">
+                    <img src="./images/add skill.svg" />
+                </div>
+            </div>
+            <div class="v10_135"><img src="./images/coins.svg" /></div>
+            <span class="v10_161">330 MentScore</span>
+            <div id="my_intro">
+                <div class="v10_465">
+                    <div class="v8_6"></div><span class="v9_30">I am looking for an inspiring mentor.
+                        He/she
+                        be in the early years of professional career in as a
+                        designer.</span><span class="v9_9">I AM LOOKING FOR</span>
+                </div>
+                <div class="v10_467">
+                    <div class="v8_4"></div><span class="v9_7">ABOUT ME</span><span class="v9_8">I started my master in
+                        Graphic Design and want to
+                        be a User Experience Designer. Seeking the
+                        continuous development of a hybrid professional capacity. I have 2 years working student
+                        background in SAP SE which helped have a more realistics idea of my future career.</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="notifications_tab" class="tabcontent" style="display: none;">
+            <div class="v10_398">
+                <div class="v10_399"></div>
+                <div class="name"></div><span class="v10_404">MENTEE REQUESTS</span><span class="v10_396">Reject
+                    All</span>
+            </div>
+            <div class="v10_474"><span class="v10_442">Anna Luisa</span><span class="v10_443">Hello, how are you? Do you
+                    have some time for a quick chat and...</span>
+                <div class="v10_444"></div>
+                <div class="v10_445">
+                    <div class="v10_446"></div><span class="v10_447">Reject</span>
+                </div>
+                <div class="v10_449"></div><span class="v10_450">Accept</span>
+                <div class="v10_451">
+                    <div class="v10_452"></div><span class="v10_453">Reply</span>
+                </div>
+            </div>
+            <div class="v10_473"><span class="v10_429">Jimmy Wang</span><span class="v10_430">Hi,can you be my
+                    mentor?</span>
+                <div class="v10_431"></div>
+                <div class="v10_435">
+                    <div class="v10_436"></div><span class="v10_437">Accept</span>
+                </div>
+                <div class="v10_432">
+                    <div class="v10_433"></div><span class="v10_434">Reject</span>
+                </div>
+                <div class="v10_438">
+                    <div class="v10_439"></div><span class="v10_440">Reply</span>
+                </div>
+            </div>
+            <div class="v10_427"><span class="v10_411">Peter Wilson</span><span class="v10_415">Hi, I am very interested
+                    in
+                    product design and want to get some...</span>
+                <div class="v10_410"></div>
+                <div class="v10_420">
+                    <div class="v10_416"></div><span class="v10_419">Reject</span>
+                </div>
+                <div class="v10_421">
+                    <div class="v10_422"></div><span class="v10_423">Accept</span>
+                </div>
+                <div class="v10_424">
+                    <div class="v10_425"></div><span class="v10_426">Reply</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Message Modal -->
+        <div id="message_modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close" onclick="closeModal(event)">&times;</span>
+                <div class="v10_312"></div>
+                <div class="v10_332">
+                    <div class="v10_313"></div>
+                    <div class="v10_317">
+                        <div class="v10_318"></div><span class="v10_319">SHARE MY PROFILE</span>
+                    </div>
+                    <div class="v10_470">
+                        <div class="name"></div><span class="v10_328">SEND A REQUEST</span>
+                    </div>
+                    <div class="v10_331">
+                        <textarea class="v10_315" placeholder="Write something to the mentor you choose..."></textarea>
+                    </div>
+                    <div class="v10_327"></div>
+                </div>
+                <div class="v10_325"></div>
+            </div>
+
         </div>
     </div>
-    <div style="text-align: center;"><p>© Copyrights MentorCircle 2021</p></div> 
+    <div style="text-align: center;">
+        <p>All rights reserved. MentorCircle 2021</p>
+    </div>
 </body>
 
 </html>
