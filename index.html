@@ -17,7 +17,7 @@
         <div class="v10_454">
             <div class="name"></div><span class="v9_29"><img src="./images/mentorcircle logo n-04 1.png" /></span>
         </div>
-        <div class="v57_5">
+        <div class="v57_5" onclick="openModal(event, 'donation_modal')">
             <div class="v57_6"></div>
             <span class="v57_7">Donation</span>
             <div class="v57_8"><img src="./images/donation.svg" /></div>
@@ -50,11 +50,11 @@
                 <div class="v9_33"><img src="./images/search icon.svg" /></div>
             </div>
             <div class=e10_464>
-                <div class="e9_20" onclick="openMessage(event)"></div>
-                <div class="e10_65" onclick="openMessage(event)"><img src="./images/choose.png" /></div>
+                <div class="e9_20" onclick="openModal(event, 'message_modal')"></div>
+                <div class="e10_65" onclick="openModal(event, 'message_modal')"><img src="./images/choose.png" /></div>
                 <div class="e9_22"></div>
-                <div class="e9_28"></div>
-                <div class="e10_63"><img src="./images/dislike.png" /></div>
+                <div class="e9_28" onclick="changeMentor(event, 'right')"></div>
+                <div class="e10_63" onclick="changeMentor(event, 'right')"><img src="./images/dislike.svg" /></div>
                 <div class="e10_61"><img src="./images/collect.svg" /></div>
             </div>
             <div id="mentor_info">
@@ -249,12 +249,13 @@
 
             <!-- Modal content -->
             <div class="modal-content">
-                <span class="close" onclick="closeModal(event)">&times;</span>
+                <span class="close" onclick="closeModal(event, 'message_modal')">&times;</span>
                 <div class="v10_312"></div>
                 <div class="v10_332">
                     <div class="v10_313"></div>
                     <div class="v10_317">
-                        <div class="v10_318"></div><span class="v10_319">SHARE MY PROFILE</span>
+                        <div class="v10_318" onclick="closeModal(event, 'message_modal')"></div><span onclick="closeModal(event, 'message_modal')"
+                            class="v10_319">SHARE MY PROFILE</span>
                     </div>
                     <div class="v10_470">
                         <div class="name"></div><span class="v10_328">SEND A REQUEST</span>
@@ -266,7 +267,28 @@
                 </div>
                 <div class="v10_325"></div>
             </div>
+        </div>
 
+        <!-- The Donation Modal -->
+        <div id="donation_modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close" onclick="closeModal(event, 'donation_modal')">&times;</span>
+                <div class="v75_28"></div>
+                <div class="v75_29">
+                    <div class="v75_30"></div>
+                    <div class="v75_31">
+                        <div class="v75_32" onclick="closeModal(event, 'donation_modal')"></div><span class="v75_33" onclick="closeModal(event, 'donation_modal')">100 MentPoints for 10$</span>
+                    </div>
+                    <div class="v75_34">
+                        <div class="name"></div><span class="v75_36">Donate a Charity to Get MentPoint</span>
+                    </div>
+                </div>
+                <div class="v75_41"></div>
+                <div class="v75_43"></div>
+                <div class="v75_42"></div>
+            </div>
         </div>
     </div>
     <div style="text-align: center;">
