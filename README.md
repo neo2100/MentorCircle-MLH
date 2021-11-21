@@ -38,16 +38,16 @@ Here are a couple challenges we ran into:
   <li> <b>Prototyping under 48 hours:</b> Our team had lots of interesting idea to implement, but given we have to work around with international time zone. We were three people from Canada and one from Germany. </li>
   <li><b>Finding a collaboration method:</b> Our first challenge was how to be sync and collaborate despite the work from home challenges and Time zone differences. First we used Mural for brainstorming parts and then tried to pipeline all tasks to use most of our available time in the best order.</li>
   <li> <b>New tools to use:</b> The time pressure also caused to use some new tools. Using Google Cloud, register domain from GoDaddy, and exporting a website from Figma using pure JavaScript (instead of ReacJS) were some of those new challenging situations.</li>
-  <li><b>Less developer than designer:</b> It was a challenge which we tried to turn to an opportunity. We had only one developer and made hard for us to develop further. But in the other hand it helped us to enrich our design.</li>
+  <li><b>Less developer than designer:</b> It was a challenge which we tried to turn to an opportunity. We had only one developer and made it hard for us to develop further. But in the other hand it helped us to enrich our design and marketing.</li>
 </ul>
 
 ## Accomplishments that we're proud of
 We are happy that we are able to complete the idea of MentorCircle under 48 hours and challenging time zone. With the pressure we are working under, our team is proud that we are ready to present the first prototype and ideation. 
 
-Finding a best match pipeline for our tasks and using most of our available ours in the best order (based our expertise) was also a great achievement that at the beginning we couldn’t believe we are capable of.
+Finding a best match pipeline for our tasks and using most of our available hours in the best order (based our expertise) was also a great achievement that at the beginning we couldn’t believe we are capable of.
 
 ## What we learned
-First, we learned how to make team in short time and try to listen to every voice in the team as much as we can. We learned how to respect limitations that each of us can face during these two days specially at weekend and everyone just try his/her best to help the team.
+First, we learned how to make a team in short time and try to listen to every voice in the team as much as we can. We learned how to respect limitations that each of us can face during these two days and everyone just try his/her best to help the team.
 
 Secondly, we learned to use bunch of new tools and new ways to propose a helpful idea for a demanding problem.
 
