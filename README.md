@@ -18,7 +18,7 @@ MentorCircle is a professional social networking platform design to create a vir
 
 Users can sign up and set up their profile outlining their experience and mentorship expectation they are seeking for. Once the profile is set up, the algorithm will recommend and pre-match connections that suit best to the user’s profile. 
 
-To engage knowledge sharing and transfer, there is a point system to encourage contribution. User can earn points through mentoring others, answering open forum questions, or participating in activities, or donating to charity through our sponsor Coil. 
+To engage knowledge sharing and transfer, there is a point system to encourage contribution. User can earn points through mentoring others, answering open forum questions, participating in activities, or donating to charities. 
 
 In order to participating in a one-on-one mentorship, user will have to collect sufficient points to do so. Mentees can submit request to begin a mentorship with their desired mentor with a simple application. There will be recommended prompt and guidance for mentors and mentees to reference to during the process. Additional post mentorship functionality such as reference letter template and custom feedback summary are also available to create action plans and journal the learnings in the mentorship. 
 
