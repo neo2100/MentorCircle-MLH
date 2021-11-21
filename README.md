@@ -23,11 +23,11 @@ To engage knowledge sharing and transfer, there is a point system to encourage c
 In order to participating in a one-on-one mentorship, user will have to collect sufficient points to do so. Mentees can submit request to begin a mentorship with their desired mentor with a simple application. There will be recommended prompt and guidance for mentors and mentees to reference to during the process. Additional post mentorship functionality such as reference letter template and custom feedback summary are also available to create action plans and journal the learnings in the mentorship. 
 
 ## How we built it
-Our project was an output of one full round of design thinking and MVP implementation. We started by brainstorming on the problem statement and then exploring the solution space using Mural. Then using Figma, we started to build an interactive UX prototype. 
+Our project was an output of one full round of design thinking and MVP implementation. We started by brainstorming on the problem statement and then exploring the solution space using Mural. Then using Figma, we started to build an interactive UX prototype based on the prioritized features from our design thinking sessions. 
 
 A parallel task was to register our domain and setup a Bucket in Google Cloud Storage. Then we setup our domain to be connected to the IP of our Bucket.
 
-Next day we have started to export CSS and UI elements from the Figma and add proper JavaScript and edit the exported HTML, to have a working prototype on the cloud storage which is also accessible from our dedicated domain. In parallel also we worked together to design our logo using Adobe Illustrator and prepare the presentation story line.
+Next day part of team have started to export CSS and UI elements from the Figma and add proper JavaScript codes and edit the exported HTML, to have a working prototype on the cloud storage which is also accessible from our dedicated domain. In parallel the other part of the team worked together to design our logo using Adobe Illustrator and prepare the presentation story line.
 
 The last step was working on the video and writing this description.
 
