@@ -1,5 +1,12 @@
 # MentorCircle-MLH
-MentorCircle project is an MVP for Back to Hacking event in MLH 2021.
+MentorCircle project is an MVP for Back to Hacking event in MLH 2021. This project has announced as a winner in two categories. More info [here](https://devpost.com/software/mentorcircle).
+
+It was a hacking experience in 48 hours. So in this project I tried to develop and MVP out of the design my teammates has created using Figma, in less than 10 hours. That's why the HTML and CSS codes in this project are not optimal and there are several duplicates.
+
+In general it would be great if anyone have a better idea to convert HTML-CSS files generated from Figma to a better standard code. The HTML generated I had used is creating a new CSS class for each element and using absolute position. So it made it even harder for me to make a responsive Front and adjust it easily.
+
+## Intro
+MentorCircle is the new way of being a mentee and mentor in a circular way and share our knowledge & experience.
 
 ## Inspiration
 Are you an early talent who struggles to navigate and progress in your career journey? 
@@ -8,17 +15,17 @@ Do you ever struggle to find a mentor who connects with your experience and advi
 
 Don't worry, MentorCircle is here for you. 
 
-MentorCircle is inspired by a roundtable conversation among early talents. The founders empathized by everyone's journey and inspired to create a robust mentorship network. Instead of a define role of mentor or mentee, we are a bigger believer in creating an open roundtable for peers to share what they excel in and seek guidance on what they need. 
+MentorCircle is inspired by a roundtable conversation among early talents. The founders empathized by everyone's journey and inspired to create a robust mentorship network. Instead of a defined role of mentor or mentee, we are a bigger believer in creating an open roundtable for peers to share what they excel in and seek guidance on what they need. 
 
 With MentorCircle as the centralize mentorship resource hub, you will be able to build a tailored career network with little downtime and only a few clicks away.
 
-## What it does
+## What it does (What it will do!)
 
 MentorCircle is a professional social networking platform design to create a virtual mentorship roundtable among college graduates and early industry talents. 
 
 Users can sign up and set up their profile outlining their experience and mentorship expectation they are seeking for. Once the profile is set up, the algorithm will recommend and pre-match connections that suit best to the user’s profile. 
 
-To engage knowledge sharing and transfer, there is a point system to encourage contribution. User can earn points through mentoring others, answering open forum questions, participating in activities, or donating to charities. 
+To engage knowledge sharing and transfer, there is a point system to encourage contribution. User can earn points through mentoring others, answering open forum questions, participating in humanitarian activities, or donating to charities. 
 
 In order to participating in a one-on-one mentorship, user will have to collect sufficient points to do so. Mentees can submit request to begin a mentorship with their desired mentor with a simple application. There will be recommended prompt and guidance for mentors and mentees to reference to during the process. Additional post mentorship functionality such as reference letter template and custom feedback summary are also available to create action plans and journal the learnings in the mentorship. 
 
@@ -54,5 +61,8 @@ Secondly, we learned to use bunch of new tools and new ways to propose a helpful
 ## What's next for MentorCircle
 We hope to seek for continue progression and support on MentorCircle. The next of this will be developing a beta functional website and application. We truly believe that our solution has the capacity to help lots of people around the globe and have a positive impact in our society.
 
+Project in Devpost:
+https://devpost.com/software/mentorcircle
 
+The website online running on Google Cloud (temporarily):
 http://mentorcircle.study/
